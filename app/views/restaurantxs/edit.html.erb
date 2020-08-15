@@ -1,0 +1,16 @@
+<h1>Edit <%=@restaurant.name %></h1>
+
+<%= form_for (@restaurant) do |f| %>
+<%=f.label :Name %>
+<%=f.text_field :name %>
+
+<%=f.label :Address %>
+<%=f.text_field :adress %>
+
+<%=f.label :Rating %>
+<%=f.text_field :stars %>
+
+<%=f.submit %>
+
+<% end %>
+

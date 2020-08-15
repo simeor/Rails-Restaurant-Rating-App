@@ -1,0 +1,80 @@
+// Place all the styles related to the restaurantxs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.box-card{
+  min-width: 290px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  box-shadow: 10px 10px 8px #888888;
+
+
+  p{
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+
+.navbar-lewagon {
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.btn-top{
+  background-color: #feff89;
+  border-radius: 4px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.fa-star{
+  color: gold;
+  margin: 2px;
+}
+
+.stars{
+  margin:4px;
+}
+
+
+
+.page-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
